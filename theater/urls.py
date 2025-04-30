@@ -4,16 +4,16 @@ from rest_framework import routers
 from theater.views import (
     GenreViewSet,
     ActorViewSet,
-    TheaterHallViewSet,
+    TheaterHallViewSet, PlayViewSet, PerformanceViewSet, ReservationViewSet,
 )
 
 router = routers.DefaultRouter()
 router.register("genres", GenreViewSet)
 router.register("actors", ActorViewSet)
 router.register("theater_halls", TheaterHallViewSet)
-# router.register("movies", MovieViewSet)
-# router.register("movie_sessions", MovieSessionViewSet)
-# router.register("orders", OrderViewSet)
+router.register("play", PlayViewSet)
+router.register("performance", PerformanceViewSet)
+router.register("Reservation", ReservationViewSet)
 
 urlpatterns = [path("", include(router.urls))]
 
