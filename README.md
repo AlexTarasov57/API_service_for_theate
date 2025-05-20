@@ -50,5 +50,5 @@ An API for managing theater plays, halls, reservations, and tickets. Built with 
 
 You can use the following test user to log in and test the API:
 
-- **Login:** `user`  
+- **Login:** `user12345@user.com`  
 - **Password:** `user12345`
