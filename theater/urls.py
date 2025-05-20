@@ -4,7 +4,10 @@ from rest_framework import routers
 from theater.views import (
     GenreViewSet,
     ActorViewSet,
-    TheaterHallViewSet, PlayViewSet, PerformanceViewSet, ReservationViewSet,
+    TheaterHallViewSet,
+    PlayViewSet,
+    PerformanceViewSet,
+    ReservationViewSet,
 )
 
 router = routers.DefaultRouter()
