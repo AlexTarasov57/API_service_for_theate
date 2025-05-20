@@ -13,8 +13,6 @@ An API for managing theater plays, halls, reservations, and tickets. Built with 
 - Git
 
 ### Clone the Repository
-
-    ```bash
     git clone https://github.com/AlexTarasov57/API_service_for_theate.git
     cd your-repo-name
 
